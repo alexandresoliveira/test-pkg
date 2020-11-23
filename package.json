@@ -1,12 +1,17 @@
 {
   "name": "test-pkg",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is a test module, please ignore",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandresoliveira/test-pkg"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexandre Oliveira <alexandre.oliveira@concert.com.br>",
   "license": "ISC"
 }
